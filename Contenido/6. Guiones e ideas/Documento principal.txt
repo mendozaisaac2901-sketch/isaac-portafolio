@@ -1,0 +1,79 @@
+============================================================
+  GUIONES & IDEAS — DOCUMENTO PRINCIPAL DE REFERENCIA
+  Portafolio Isaac Mendoza
+  Actualizado: 2026-06-05
+============================================================
+
+ESTRUCTURA DE CARPETAS:
+  Contenido/6. Guiones e ideas/Contenido/
+    Cliente 1/ → Yenly
+    Cliente 2/ → Ilsalon
+    Cliente 3/ → Land of Nomdas
+    Cliente 4/ → Corte Havana
+
+============================================================
+01. YENLY
+============================================================
+  Carpeta local: Cliente 1/
+  Videos locales: 1.mp4, 2.mp4, 3.mp4
+
+  GUION (Google Drive):
+    https://drive.google.com/file/d/1Okdrxu5wAK9vigEikAXOdRDoxQXivRUt/view?usp=drive_link
+    Drive ID: 1Okdrxu5wAK9vigEikAXOdRDoxQXivRUt
+
+  VIDEOS EN INSTAGRAM:
+    Video 1 Parte 1 → https://www.instagram.com/p/C6rQXDnuP_I/
+    Video 1 Parte 2 → https://www.instagram.com/p/C6ulqJRM8Uk/
+    Video 2          → https://www.instagram.com/p/DOSDWUEjFo2/
+
+============================================================
+02. ILSALON
+============================================================
+  Carpeta local: Cliente 2/
+  Videos locales: 1.mp4, 2.mp4
+
+  GUION (Google Drive):
+    https://drive.google.com/file/d/1wSDrR4f6jICveE3PI6O9qhGc4BkGvfpo/view?usp=drive_link
+    Drive ID: 1wSDrR4f6jICveE3PI6O9qhGc4BkGvfpo
+
+  VIDEOS EN INSTAGRAM:
+    Video 1 → https://www.instagram.com/p/DN1jz3aXH-C/
+    Video 2 → https://www.instagram.com/p/C8Fwntdu1FE/
+
+============================================================
+03. LAND OF NOMDAS
+============================================================
+  Carpeta local: Cliente 3/
+  Videos locales: 1.mp4
+
+  GUION (Google Drive):
+    https://drive.google.com/file/d/1HqtbMf_ivku_Fa2Qf6ogC3C4lRK8xeP4/view?usp=drive_link
+    Drive ID: 1HqtbMf_ivku_Fa2Qf6ogC3C4lRK8xeP4
+
+  VIDEOS EN INSTAGRAM:
+    Video 1 → https://www.instagram.com/reel/DKzvmqzROLq/?igsh=MWFkaG53Z2FmNTdlbQ==
+
+============================================================
+04. CORTE HAVANA
+============================================================
+  Carpeta local: Cliente 4/
+  Videos locales: 1.mp4, 2.mp4
+
+  GUION (Google Drive):
+    https://drive.google.com/file/d/1VVniVGSt2U0GZYF2Nzp_rU2sfmYjO2JP/view?usp=drive_link
+    Drive ID: 1VVniVGSt2U0GZYF2Nzp_rU2sfmYjO2JP
+
+  VIDEOS EN INSTAGRAM:
+    Video 1 → https://www.instagram.com/p/DPNGTIfkeZJ/
+    Video 2 → https://www.instagram.com/p/DLqgVjwxbMM/
+
+============================================================
+INSTRUCCIONES PARA AGREGAR NUEVOS CLIENTES:
+============================================================
+1. Crea una carpeta nueva en Contenido/ (ej. Cliente 5/)
+2. Sube los videos .mp4 numerados (1.mp4, 2.mp4, etc.)
+3. Sube el guion PDF a Google Drive
+4. Haz clic derecho → Compartir → Cualquier persona con el link
+5. Copia el link y extrae el ID (la parte entre /d/ y /view)
+6. En index.html, agrega un nuevo objeto en GUIONES_DATA con:
+     name, folder, guion:{url, driveId}, videos:[{title, file, ig}]
